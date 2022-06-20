@@ -1,0 +1,13 @@
+{
+    "users": [{
+        "id": 0,
+        "username": "Sooraj",
+        "email": "sooraj@gmail.com",
+        "gender": "Male",
+        "dob": "2000-02-04",
+        "maritalStatus": "Single",
+        "city": "Hoshiarpur",
+        "employeeStatus": "Employee",
+        "phone": "12541254"
+    }]
+}

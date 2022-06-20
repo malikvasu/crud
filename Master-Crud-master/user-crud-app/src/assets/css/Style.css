@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+.custom-nav {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.custom-btn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-view-btn {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-table {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.custom-form-style h3 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-form-style label {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-form-style input {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-form-style textarea {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-form-style select {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.custom-form-style button {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.animated-bg {
+    background: linear-gradient(10deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ffafbd, #ffc3a0, #2193b0, #6dd5ed);
+    background-size: 500% 500%;
+    animation: bg 10s infinite;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.bottom-bar {
+    color: #333;
+    height: auto;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.bottom-bar h6 {
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.bottom-bar h6 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.bottom-bar h6 span {
+    cursor: pointer;
+}
+
+.action-btn {
+    cursor: pointer;
+}
+
+.poster {
+    width: 220px;
+    filter: grayscale(100);
+    transition: 0.7s;
+}
+
+.poster:hover {
+    filter: grayscale(0);
+    transform: scale(1.06);
+}
+
+.movie-des {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 21px;
+}
+
+.custom-view-style h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.custom-view-style h4 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+}
